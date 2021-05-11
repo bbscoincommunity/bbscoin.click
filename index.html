@@ -154,7 +154,7 @@
 <link href="img/logos/favicon.ico" rel="shortcut icon">
 <link rel="manifest" href="/manifest.json" />
 </head>
-  <body id="page-top" class="bg-light">
+  <body id="page-top" class="bg-dark">
 <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container nav nav-tabs bg-dark-50" id="nav-tab" role="tablist">
@@ -1800,9 +1800,9 @@
             $('.nav-link').on('click', function(){
               $('.nav-link').removeClass('active');
               mytab = $(this).attr('aria-controls');
-              $.when( $('#nav-tabContent').children().hide() ).then(function() {
+              $.when( $('#nav-tabContent').children().hide() ).done(function() {
                 $(this).addClass('active');
-                $('#'+mytab).show();
+                $('#'+mytab).fadeIn(500);
                   if (mytab == "nav-insights") {
                     loadExplorer();
                     setInterval(function(){ loadExplorer(); }, 30000);
