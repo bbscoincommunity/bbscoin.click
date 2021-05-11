@@ -54,100 +54,101 @@
 
 
 <script type="application/ld+json">
-{
-	"@context": "https://schema.org",
-	"@type": "WebPage",
-	"name": "BBSCoin",
-  "image":"https://bbscoin.click/img/logos/bbscoin.png",
-	"mainEntity": {
-		"@type": "ItemList",
-		"name": "Exchange Listings",
-		"itemListElement": [{
-				"@type": "ExchangeRateSpecification",
-				"currency": "BBS",
-                "name": "BBSCoin",
-                "identifier":"Blockchain",
-                "description":"TradeOgre",
-                "disambiguatingDescription":182194000},
-                "url":"https://tradeogre.com/exchange/LTC-BBS",
-				"currentExchangeRate": {
-					"@type": "UnitPriceSpecification",
-					"price": "0.00000002",
-					"priceCurrency": "LTC"
-				},
-        "exchangeRateSpread": {
-          "@type": "MonetaryAmount",
-					"maxValue": "0.00000003",
-					"minValue": "0.00000001",
-          "currency": "LTC"
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "BBSCoin",
+        "image": "https://www.bbscoin.click/img/logos/bbscoin.png",
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "Exchange Listings",
+            "itemListElement": [
+                {
+                    "@type": "ExchangeRateSpecification",
+                    "currency": "BBS",
+                    "name": "BBSCoin",
+                    "identifier": "Blockchain",
+                    "description": "TradeOgre",
+                    "disambiguatingDescription": 182194000,
+                    "url": "https://tradeogre.com/exchange/LTC-BBS",
+                    "currentExchangeRate": {
+                        "@type": "UnitPriceSpecification",
+                        "price": "0.00000002",
+                        "priceCurrency": "LTC"
+                    },
+                    "exchangeRateSpread": {
+                        "@type": "MonetaryAmount",
+                        "maxValue": "0.00000003",
+                        "minValue": "0.00000001",
+                        "currency": "LTC"
+                    }
+                },
+                {
+                    "@type": "ExchangeRateSpecification",
+                    "currency": "BBS",
+                    "name": "BBSCoin",
+                    "identifier": "Blockchain",
+                    "mainEntityOfPage": "https://bbscoin.click",
+                    "description": "Crex24",
+                    "disambiguatingDescription": 264516000,
+                    "url": "https://crex24.com/exchange/BBS-BTC",
+                    "currentExchangeRate": {
+                        "@type": "UnitPriceSpecification",
+                        "price": 0.00000000006,
+                        "priceCurrency": "BTC"
+                    },
+                    "exchangeRateSpread": {
+                        "@type": "MonetaryAmount",
+                        "maxValue": 0.00000000007,
+                        "minValue": 0.00000000005,
+                        "currency": "LTC"
+                    }
+                },
+                {
+                    "@type": "ExchangeRateSpecification",
+                    "currency": "BBST",
+                    "name": "BBSToken",
+                    "identifier": "TRC10|1003413",
+                    "mainEntityOfPage": "https://bbscoin.click",
+                    "description": "Bololex",
+                    "disambiguatingDescription": 264516000,
+                    "url": "https://bololex.com/trading?symbol=BBST-TRX",
+                    "currentExchangeRate": {
+                        "@type": "UnitPriceSpecification",
+                        "price": 0.00003093,
+                        "priceCurrency": "TRX"
+                    },
+                    "exchangeRateSpread": {
+                        "@type": "MonetaryAmount",
+                        "maxValue": 0.00004786,
+                        "minValue": 0.00001400,
+                        "currency": "TRX"
+                    }
+                },
+                {
+                    "@type": "ExchangeRateSpecification",
+                    "currency": "WBST",
+                    "name": "Wrapped BBSToken",
+                    "identifier": "TRC20|TB3CjdHfkraU7MJLSQESYPY4U2CMKXi3LB",
+                    "mainEntityOfPage": "https://bbscoin.click",
+                    "description": "JustSwap",
+                    "disambiguatingDescription": "182234",
+                    "url": "https://justswap.io/#/scan/detail/trx/TB3CjdHfkraU7MJLSQESYPY4U2CMKXi3LB",
+                    "currentExchangeRate": {
+                        "@type": "UnitPriceSpecification",
+                        "price": 0.000021,
+                        "priceCurrency": "TRX"
+                    },
+                    "exchangeRateSpread": {
+                        "@type": "MonetaryAmount",
+                        "maxValue": 0.000022,
+                        "minValue": 0.000020,
+                        "currency": "TRX"
+                    }
+                }
+            ]
         }
-			},
-			{
-				"@type": "ExchangeRateSpecification",
-				"currency": "BBS",
-                "name": "BBSCoin",                
-                "identifier":"Blockchain",
-                "mainEntityOfPage":"https://bbscoin.click",
-                "description":"Crex24",
-                "disambiguatingDescription": 264516000,
-                "url":"https://crex24.com/exchange/BBS-BTC",
-				"currentExchangeRate": {
-					"@type": "UnitPriceSpecification",
-					"price": 0.00000000006,
-					"priceCurrency": "BTC"
-				},
-        "exchangeRateSpread": {
-          "@type": "MonetaryAmount",
-					"maxValue": 0.00000000007,
-					"minValue": 0.00000000005,
-          "currency": "LTC"
-        }
-			},
-			{
-				"@type": "ExchangeRateSpecification",
-				"currency": "BBST",
-                "name": "BBSToken",                
-                "identifier":"TRC10|1003413",
-                "mainEntityOfPage":"https://bbscoin.click",
-                "description":"Bololex",
-                "disambiguatingDescription":264516000,
-                "url":"https://bololex.com/trading?symbol=BBST-TRX",
-				"currentExchangeRate": {
-					"@type": "UnitPriceSpecification",
-					"price": 0.00003093,
-					"priceCurrency": "TRX"
-				},
-        "exchangeRateSpread": {
-          "@type": "MonetaryAmount",
-          "maxValue": 0.00004786,
-					"minValue": 0.00001400,
-          "currency": "TRX"
-        }
-			},
-			{
-				"@type": "ExchangeRateSpecification",
-				"currency": "WBST",
-                "name": "Wrapped BBSToken",                
-                "identifier":"TRC20|TB3CjdHfkraU7MJLSQESYPY4U2CMKXi3LB",
-                "mainEntityOfPage":"https://bbscoin.click",
-                "description":"JustSwap",
-                "disambiguatingDescription":"182234",
-                "url":"https://justswap.io/#/scan/detail/trx/TB3CjdHfkraU7MJLSQESYPY4U2CMKXi3LB",
-				"currentExchangeRate": {
-					"@type": "UnitPriceSpecification",
-					"price": 0.000021,
-					"priceCurrency": "TRX"
-				},
-        "exchangeRateSpread": {
-          "@type": "MonetaryAmount",
-          "maxValue": 0.000022,
-					"minValue": 0.000020,
-          "currency": "TRX"
-        }
-			}
-		]
-	}
-}
+    }
 </script>
 
 <link href="img/logos/favicon.ico" rel="shortcut icon">
@@ -156,7 +157,7 @@
   <body id="page-top" class="bg-light">
 <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container nav nav-tabs" id="nav-tab" role="tablist">
+      <div class="container nav nav-tabs bg-dark-50" id="nav-tab" role="tablist">
         <a class="navbar-brand nav-link text-shadow active" id="nav-index-tab" data-toggle="tab" href="#nav-index" role="tab" aria-controls="nav-index" aria-selected="true" title="BBSCoin Home"><img width="30px" src="/img/logos/bbscoin.png" alt="BBSCoin Home" title="BBSCoin Home">&nbsp;BBSCoin</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
