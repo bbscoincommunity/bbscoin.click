@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    {
+      "name": "BBSCoin Official Node",
+      "url": "node.bbscoin.click",
+      "port": 11204,
+      "ssl": true,
+      "fee": 100000,
+      "online": true
+    }
+  ]
+}
