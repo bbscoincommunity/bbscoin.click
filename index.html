@@ -1919,13 +1919,9 @@
 */
 
             if ($(location).attr('pathname').split("/")[1]) {
-                navigate("nav-"+$(location).attr('pathname').split("/")[1]);
-                if ($(location).attr('pathname').split("/")[2]) {
-                    if (lSet.has($(location).attr('pathname').split("/")[2])) {
-                            translator($(location).attr('pathname').split("/")[2]);
-                    }
-                    else { langDetect(); }
-                }
+                $.when( navigate("nav-"+$(location).attr('pathname').split("/")[1]) ).done(function() {
+                    langDetect();
+                });
             }
             else {  langDetect(); }
 
