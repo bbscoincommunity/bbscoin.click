@@ -31,17 +31,17 @@
 <meta property="twitter:description" content="BBSCoin [BBS] is a cryptocurrency for exchanging virtual credits from forums and websites /" />
 <meta property="twitter:image" content="https://bbscoin.click/img/logos/bbscoin.png" />
 <link rel="canonical" href="https://bbscoin.click/" />
-<link rel="alternate" hrefLang="ar" href="https://www.bbscoin.click/#lang-ar" />
-<link rel="alternate" hrefLang="en" href="https://www.bbscoin.click/#lang-en" />
-<link rel="alternate" hrefLang="es" href="https://www.bbscoin.click/#lang-es" />
-<link rel="alternate" hrefLang="id" href="https://www.bbscoin.click/#lang-id" />
-<link rel="alternate" hrefLang="ja" href="https://www.bbscoin.click/#lang-ja" />
-<link rel="alternate" hrefLang="ko" href="https://www.bbscoin.click/#lang-ko" />
-<link rel="alternate" hrefLang="pt-br" href="https://www.bbscoin.click/#lang-pt" />
-<link rel="alternate" hrefLang="ru" href="https://www.bbscoin.click/#lang-ru" />
-<link rel="alternate" hrefLang="vi" href="https://www.bbscoin.click/#lang-vi" />
-<link rel="alternate" hrefLang="zh" href="https://www.bbscoin.click/#lang-zh" />
-<link rel="alternate" hrefLang="zh-tw" href="https://www.bbscoin.click/#lang-zh" />
+<link rel="alternate" hrefLang="ar" href="https://www.bbscoin.click/ar" />
+<link rel="alternate" hrefLang="en" href="https://www.bbscoin.click/en" />
+<link rel="alternate" hrefLang="es" href="https://www.bbscoin.click/es" />
+<link rel="alternate" hrefLang="id" href="https://www.bbscoin.click/id" />
+<link rel="alternate" hrefLang="ja" href="https://www.bbscoin.click/ja" />
+<link rel="alternate" hrefLang="ko" href="https://www.bbscoin.click/ko" />
+<link rel="alternate" hrefLang="pt-br" href="https://www.bbscoin.click/pt" />
+<link rel="alternate" hrefLang="ru" href="https://www.bbscoin.click/ru" />
+<link rel="alternate" hrefLang="vi" href="https://www.bbscoin.click/vi" />
+<link rel="alternate" hrefLang="zh" href="https://www.bbscoin.click/zh" />
+<link rel="alternate" hrefLang="zh-tw" href="https://www.bbscoin.click/zh" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://bbscoin.click/" />
 <meta property="og:title" content="BBSCoin (BBS) official website, insights and downloads / | BBSCoin" />
@@ -168,7 +168,7 @@
               <a class="nav-link" href="https://bbstoken.click/" role="tab" aria-controls="nav-token" aria-selected="false" target="_blank"><div id="navi_bbstoken">BBS TOKEN</div></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="nav-insights-tab" data-toggle="tab" href="#nav-insights" role="tab" aria-controls="nav-insights" aria-selected="false"><div id="navi_statistics">Insights</div></a>
+              <a class="nav-link" id="nav-insight-tab" data-toggle="tab" href="#nav-insight" role="tab" aria-controls="nav-insight" aria-selected="false"><div id="navi_statistics">Insight</div></a>
             </li>
             <li class="nav-item"><!-- js-scroll-trigger -->
               <a class="nav-link" id="nav-roadmap-tab" data-toggle="tab" href="#nav-roadmap" role="tab" aria-controls="nav-roadmap" aria-selected="false"><div id="navi_roadmap">Roadmap</div></a>
@@ -244,7 +244,7 @@
       <div class="container text-center my-5 text-white text-shadow d-none">
         <h2 id="learn_more_btn" class="mb-4 text-shadow font-weight-bold">WANT TO LEARN MORE?</h2>
         <div class="row justify-content-center">
-          <a class="btn btn-light btn-xl sr-button m-5 border text-shadow text-dark nav-link" id="nav-insights-tab" data-toggle="tab" href="#nav-insights" role="tab" aria-controls="nav-insights" aria-selected="false"><div id="navi_statistics">Insights</div></a>
+          <a class="btn btn-light btn-xl sr-button m-5 border text-shadow text-dark nav-link" id="nav-insight-tab" data-toggle="tab" href="#nav-insight" role="tab" aria-controls="nav-insight" aria-selected="false"><div id="navi_statistics">Insights</div></a>
           <a class="btn btn-light btn-xl sr-button m-5 border text-shadow text-dark nav-link" id="nav-roadmap-tab" data-toggle="tab" href="#nav-roadmap" role="tab" aria-controls="nav-roadmap" aria-selected="false"><div id="navi_roadmap">Roadmap</div></a>
           <a class="btn btn-light btn-xl sr-button m-5 border text-shadow text-dark nav-link" id="nav-ecosystem-tab" data-toggle="tab" href="#nav-ecosystem" role="tab" aria-controls="nav-ecosystem" aria-selected="false"><div id="navi_ecosystem">Ecosystem</div></a>
         </div>
@@ -256,7 +256,7 @@
 
 
   </div>
-  <div class="tab-pane p-0" id="nav-insights" role="tabpanel" aria-labelledby="nav-insights-tab">
+  <div class="tab-pane p-0" id="nav-insight" role="tabpanel" aria-labelledby="nav-insight-tab">
 
     
     <section class="bg-primary" id="ecosystem" style="background-image:url('img/cryptunit/bbs-7.jpg');background-repeat:no-repeat;background-size:cover;background-position:top;">
@@ -1644,6 +1644,7 @@
           gtag('config', 'UA-119908894-1');
         </script>
         <script type="text/javascript">
+          var lSet = new Set(["es", "ar", "id", "ja", "ko", "pt", "ru", "vi", "zh"]);
           var block,
             Difficulties = [],
             Blocks = [],
@@ -1873,11 +1874,12 @@
               $.when( $('#nav-tabContent').children().hide() ).done(function() {
                 $('#'+mytab+'-tab').addClass('active');
                 if (mytab !== "nav-token" && mytab !== "nav-languages") {
+                    window.history.pushState("https://www.bbscoin.click"+mytab.split("-")[1], "BBSCoin (BBS)", mytab.split("-")[1]);
                     $('#'+mytab).fadeIn(500);
-                    if (mytab == "nav-insights") {
+                    if (mytab == "nav-insight") {
                         loadExplorer();
                         setInterval(function(){ loadExplorer(); }, 30000);
-                        //loadMarkets();
+//                        loadMarkets();
                         google.charts.load('current', {'packages':['corechart']});
                         setTimeout(() => {  google.charts.setOnLoadCallback(drawChart(1)); }, 2000);
                         setInterval(function(){ drawChart(1); }, 120000);
@@ -1886,8 +1888,15 @@
               });
           }
 
+          function langDetect() {
+            var languager = window.navigator.userLanguage || window.navigator.language;
+            var navLanguage = languager.split("-");
+                if (lSet.has(navLanguage[0])) {
+                    translator(navLanguage[0]);
+                }
+          }
+
           $( document ).ready(function() {
-            var lSet = new Set(["es", "ar", "id", "ja", "ko", "pt", "ru", "vi", "zh"]);
 
             $('.nav-link').on('click', function(){
              mytab = $(this).attr('aria-controls');
@@ -1914,11 +1923,13 @@
                 if ($(location).attr('pathname').split("/")[2]) {
                     if (lSet.has($(location).attr('pathname').split("/")[2])) {
                             translator($(location).attr('pathname').split("/")[2]);
-                        }
-
+                    }
+                    else { langDetect(); }
                 }
             }
-/*            
+            else {  langDetect(); }
+
+            /*            
             if ($(location).attr('hash')) {
                 if ($(location).attr('hash').substring(4, 1) == "nav") {
                     navigate($(location).attr('hash').split("-")[0].substring(4, 1)+"-"+$(location).attr('hash').split("-")[1]);
