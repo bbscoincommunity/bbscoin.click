@@ -1890,7 +1890,7 @@
                 }
               });
              }
-
+             return true;
             });
 
 /*
@@ -1904,18 +1904,19 @@
               setInterval(function(){ drawChart(1); }, 120000);
             });
 */
-
-            var languager = window.navigator.userLanguage || window.navigator.language;
-            var navLanguage = languager.split("-");
-
-            // pre-construct the Set
-            var lSet = new Set(["es", "ar", "id", "ja", "ko", "pt", "ru", "vi", "zh"]);
-
-            // test the Set at runtime
-            if (lSet.has(navLanguage[0])) {
-                translator(navLanguage[0]);
+            if ($(location).attr('hash')) {
+                if ($(location).attr('hash').substring(6, 1) == "lang-") {
+                    translator($(location).attr('hash').split("-")[1]);
+                }
             }
-
+            else {
+                var languager = window.navigator.userLanguage || window.navigator.language;
+                var navLanguage = languager.split("-");
+                var lSet = new Set(["es", "ar", "id", "ja", "ko", "pt", "ru", "vi", "zh"]);
+                if (lSet.has(navLanguage[0])) {
+                    translator(navLanguage[0]);
+                }
+            }
 
           });
           </script>
