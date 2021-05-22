@@ -1908,6 +1908,17 @@
               setInterval(function(){ drawChart(1); }, 120000);
             });
 */
+
+            if ($(location).attr('pathname').split("/")[1]) {
+                navigate("nav-"+$(location).attr('pathname').split("/")[1]);
+                if ($(location).attr('pathname').split("/")[2]) {
+                    if (lSet.has($(location).attr('pathname').split("/")[2])) {
+                            translator($(location).attr('pathname').split("/")[2]);
+                        }
+
+                }
+            }
+/*            
             if ($(location).attr('hash')) {
                 if ($(location).attr('hash').substring(4, 1) == "nav") {
                     navigate($(location).attr('hash').split("-")[0].substring(4, 1)+"-"+$(location).attr('hash').split("-")[1]);
@@ -1930,7 +1941,7 @@
                     translator(navLanguage[0]);
                 }
             }
-
+*/
           });
           </script>
 
