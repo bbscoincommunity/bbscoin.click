@@ -1,1 +1,2 @@
 User-agent: *
+Sitemap: https://www.bbscoin.click/sitemap.xml
