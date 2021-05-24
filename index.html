@@ -1827,7 +1827,7 @@
           //  });
           }
 
-          function translator(language, collapse = null) {
+          function translator(language) {
 //            var pSet = ["navigation", "index", "footer", "insights", "roadmap", "ecosystem", "download", "followus"];
             $.ajax({
               url: 'languages/'+language+'.json',
@@ -1863,7 +1863,7 @@
                                 });
                             }
                         });
-                        if (collapse) {$('#navbarResponsive').collapse('toggle');}
+                        if ($('#navbarResponsive').is(":visible")) {$('#navbarResponsive').collapse('hide');}
               }
             });
             return false;
@@ -1875,8 +1875,9 @@
               $.when( $('#nav-tabContent').children().hide() ).done(function() {
                 $('#'+mytab+'-tab').addClass('active');
                 if (mytab !== "nav-token" && mytab !== "nav-languages") {
-                    window.history.pushState("https://www.bbscoin.click"+mytab.split("-")[1], "BBSCoin (BBS)", mytab.split("-")[1]);
-                    if ($('.navbar-toggler').is(":visible")) {$('#navbarResponsive').collapse('toggle');}
+                    if (mytab.split("-")[1] == "index") { window.history.pushState("https://www.bbscoin.click/", "BBSCoin (BBS)", "/"); }
+                    else { window.history.pushState("https://www.bbscoin.click"+mytab.split("-")[1], "BBSCoin (BBS)", mytab.split("-")[1]); }
+                    if ($('#navbarResponsive').is(":visible")) {$('#navbarResponsive').collapse('hide');}
                     $('#'+mytab).fadeIn(500);
                     if (mytab == "nav-insight") {
                         loadExplorer();
