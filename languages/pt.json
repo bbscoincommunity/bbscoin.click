@@ -26,11 +26,11 @@
     "subtitle_home": " - uma criptomoeda para trocar cr&eacute;ditos virtuais de f&oacute;runs e sites",
     "subtitle_ecosystem": " - Ecosistema",
     "subtitle_download": " - Download",
-    "home_desc": "<strong>BBSCoin<br />Uma criptomoeda por trocar cr&eacute;ditos virtuais em f&oacute;runs e websites</strong>",
-    "home_desc_below": "Abrindo a porta para seus cr&eacute;ditos, carma, pontos, reputa&ccedil;&atilde;o para o mundo inteiro",
+    "home_desc": "<strong>Criptomoeda criada para trocar pontos de sistemas de BBS</strong>",
+    "home_desc_below": "Abrindo as portas para a fidelidade do usuário em fóruns e sites.",
     "home_more_btn": "Descubra mais",
-    "home_about_title": "N&oacute;s criamos uma Criptomoeda Segura<br /> Integre ao seu site e Tenha Sucesso",
-    "home_about_desc": "BBSCoin &eacute; uma criptografia criada para trocar cr&eacute;ditos virtuais. Se &eacute; o dinheiro virtual ganho nos f&oacute;runs, pontos que voc&ecirc; coletou nos sites ou karmas dados por seus colegas de trabalho no Slack / HipChat. O BBS fornece uma ponte para o mundo maior.",
+    "home_about_title": "O BBSCoin usa tecnologias CryptoNote para manter as transações e saldos seguros, ajudando a conduzir o seu site com sucesso.",
+    "home_about_desc": "Seja o dinheiro virtual ganho nos fóruns, pontos que você acumulou em sites ou karmas dados por seus colegas de trabalho. BBSCoin fornece uma ponte para o mundo maior.",
     "ring_signatures": "Assinatura Privada",
     "ring_signatures_desc": "Aproveitamos a Assinatura Privada para dar a voc&ecirc; a verdadeira privacidade para que voc&ecirc; possa integrar qualquer necessidade.",
     "platform": "Plataforma",
@@ -177,6 +177,8 @@
     "listing_votes": "A vota&ccedil;&atilde;o para listagens est&aacute; em execu&ccedil;&atilde;o no momento exchanges <a href='https://www.southxchange.com/Home/Vote#new-coins' target='_blank'> SouthXchange </a> e <a href='https://bololex.com/voting/' target = '_ blank'> Bololex </a>. ",
     "pinterest":"Pinterest",
     "bbscoin_pinterest":"BBSCoin Pinterest",
-    "home_about_bbst": "BBS Coin agora também está no <img src='/img/tron-logo-w-words-min.png' width='60' height='60' class='rounded-circle bg-white' title='Tron Network (TRX)'> Rede Tron como BBS Token (BBST), que seria uma ponte de abertura entre BBS Coin e a rede Tron e tokens disponíveis em seu sistema. Observe que este é um serviço de nova plataforma de BBS Coin e não deve ser confundido com uma troca completa. ",
-    "home_about_bbst_more": "A emissão de token começou em 15 de outubro de 2020, e os usuários atuais da rede Tron podem adquirir 10.000 BBST por 1 TRX. Um montante de 120 bilhões foi congelado até 16 de janeiro de 2021 para cobrir a troca de BBSCoin para token BBS e vice-versa . "
+    "home_about_bbst": "BBSCoin está na rede Tron como BBSToken (BBST), que é uma ponte de abertura entre BBSCoin e a rede Tron e seu ecossistema de tokens. Nota: BBSToken é um serviço de plataforma do BBSCoin, NÃO é uma troca.",
+    "home_about_bbst_more": "O token foi emitido em 15 de outubro de 2020. Um montante de 120 bilhões de BBST foi mantido congelado e, atualmente, o montante de 64,470 bilhões de BBST está disponível para circulação.",
+    "home_plugins": "Como o BBSCoin foi projetado para trocar créditos virtuais, plug-ins estão disponíveis para o seguinte software:",
+    "home_plugins_download": "* Os plug-ins podem ser adquiridos em nossa guia [BAIXAR]."
 }

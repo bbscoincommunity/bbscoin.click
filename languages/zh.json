@@ -26,11 +26,11 @@
 "subtitle_home": " - 用于论坛和网站交换虚拟积分的加密货币",
 "subtitle_ecosystem": " - 生态系统",
 "subtitle_download": " - 下载",
-"home_desc": "<strong>BBSCoin<br />用于论坛和网站交换虚拟积分的加密货币</strong>",
-"home_desc_below": "为你的虚拟积分和点券打开一扇面向世界的窗户",
+"home_desc": "<strong>為從公告板系統交換積分而創建的加密貨幣</strong>",
+"home_desc_below": "在論壇和網站上打開用戶忠誠度的大門。",
 "home_more_btn": "了解更多",
-"home_about_title": "我们创造了一种加密货币<br />携手助力你的网站",
-"home_about_desc": "BBSCoin 用于论坛和网站交换虚拟积分的加密货币。无论是从论坛或者网站的积分,还是各种虚拟点券,BBS 为它们建造了一架通往世界的桥梁。",
+"home_about_title": "BBSCoin 使用 CryptoNote 技術來保證交易和余額的安全，幫助您成功地推動您的網站。",
+"home_about_desc": "無論是在論壇中獲得的虛擬貨幣，您在網站上收集的積分還是您的同事給予的業力。 BBSCoin 為其提供了通往更廣闊世界的橋樑。",
 "ring_signatures": "环签名",
 "ring_signatures_desc": "我们利用环签名给你真正的安全保密,使您可以集成在任何您需要的地方。",
 "platform": "平台",
@@ -179,6 +179,8 @@
 "listing_votes": "正在对清单进行投票：<a href='https://www.southxchange.com/Home/Vote#new-coins' target='_blank'> SouthXchange </a>和<a href='https://bololex.com/voting/' target ='_ blank'> Bololex </a>交流。",
 "pinterest":"Pinterest",
 "bbscoin_pinterest":"BBSCoin Pinterest",
-"home_about_bbst":"BBS硬幣現在也在<img src='/img/tron-logo-w-words-min.png' width='60' height='60' class='rounded-circle bg-white' title='Tron Network（TRX）'>作為BBS令牌（BBST）的Tron網絡，這將是BBS Coin與Tron網絡及其係統中可用令牌之間的開放橋樑。請注意，這是一項新的平台服務 BBS Coin，不要與完整掉期混淆。",
-"home_about_bbst_more":"令牌發行已於2020年10月15日開始，當前的Tron網絡用戶可能以1 TRX的價格購買10,000 BBST。凍結了1200億的資金，直到2021年1月16日，以涵蓋從BBSCoin到BBS Token的互換，反之亦然 。"
+"home_about_bbst":"BBSCoin作為BBSToken（BBST）在Tron網絡上，它是BBSCoin與Tron網絡及其令牌生態系統之間的橋樑。 注意：BBSToken 是 BBSCoin 的平台服務，不是交換。",
+"home_about_bbst_more":"Token於2020年10月15日發行，1200億BBST被凍結，目前可供流通量644.70億BBST。",
+"home_plugins": "由於 BBSCoin 是為交換虛擬信用而設計的，因此插件可用於以下軟件：",
+"home_plugins_download": "* 插件可以從我們的 [ 下載 ] 選項卡中獲取。"
 }

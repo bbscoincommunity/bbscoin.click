@@ -26,11 +26,11 @@
 "subtitle_home": " - Cryptocurrency untuk bertukar kredit virtual dari forum dan situs web",
 "subtitle_ecosystem": " - Ekosistem",
 "subtitle_download": " - Unduh",
-"home_desc": "<strong>BBSCoin<br />Cryptocurrency untuk bertukar kredit virtual dari forum dan situs web</strong>",
-"home_desc_below": "Membuka pintu untuk kredit Anda, karma, poin, reputasi ke seluruh dunia",
+"home_desc": "<strong>Cryptocurrency dibuat untuk bertukar poin dari sistem papan buletin</strong>",
+"home_desc_below": "Membuka pintu loyalitas pengguna di forum dan situs web.",
 "home_more_btn": "Temukan lebih banyak lagi",
-"home_about_title": "Kami Membuat Cryptocurrency Aman<br />Dorong Situs Anda Berhasil",
-"home_about_desc": "BBSCoin adalah cryptocurrency yang dirancang untuk bertukar kredit virtual. Apakah itu uang virtual yang diperoleh di forum, poin yang Anda kumpulkan di situs web atau karma yang diberikan oleh rekan kerja Anda di Slack / HipChat. BBS menyediakan jembatan untuk itu ke dunia yang lebih besar.",
+"home_about_title": "BBSCoin menggunakan teknologi CryptoNote untuk mengamankan transaksi dan saldo, membantu mendorong situs web Anda dengan sukses.",
+"home_about_desc": "Apakah itu uang virtual yang diperoleh di forum, poin yang Anda kumpulkan di situs web atau karma yang diberikan oleh rekan kerja Anda. BBSCoin menyediakan jembatan untuk itu ke dunia yang lebih besar.",
 "ring_signatures": "Tanda Tangan Cincin",
 "ring_signatures_desc": "Kami memanfaatkan Ring Signatures untuk memberikan privasi kepada Anda sehingga Anda dapat mengintegrasikan apa pun yang Anda butuhkan.",
 "platform": "Peron",
@@ -178,6 +178,8 @@
 "listing_votes": "Voting untuk listing berjalan sekarang di: <a href='https://www.southxchange.com/Home/Vote#new-coins' target='_blank'> SouthXchange </a> dan <a href='https://bololex.com/voting/' target = '_ blank'> Bololex </a> dipertukarkan. ",
 "pinterest":"Pinterest",
 "bbscoin_pinterest":"BBSCoin Pinterest",
-"home_about_bbst": "BBS Coin sekarang juga ada di <img src='/img/tron-logo-w-words-min.png' width='60' height='60' class='rounded-circle bg-white' title=' Tron Network (TRX) '> Tron network as BBS Token (BBST), yang akan menjadi jembatan pembuka antara BBS Coin dan jaringan Tron serta token yang tersedia di sistem mereka. Harap diperhatikan bahwa ini adalah layanan platform baru dari BBS Coin dan jangan bingung dengan swap penuh. ",
-"home_about_bbst_more": "Penerbitan token telah dimulai pada 15 Oktober 2020 di mana pengguna jaringan Tron saat ini dapat memperoleh 10.000 BBST untuk 1 TRX. Sejumlah 120 Miliar telah dibekukan hingga 16 Januari 2021 untuk menutupi pertukaran dari BBSCoin ke BBS Token dan sebaliknya . "
+"home_about_bbst": "BBSCoin ada di jaringan Tron sebagai BBSToken (BBST), yang merupakan jembatan pembuka antara BBSCoin dan jaringan Tron dan ekosistem tokennya. Catatan: BBSToken adalah layanan platform BBSCoin, BUKAN swap.",
+"home_about_bbst_more": "Token dikeluarkan pada 15 Oktober 2020. Sejumlah 120 Miliar BBST disimpan dibekukan, dan saat ini jumlah 64,470 Miliar BBST tersedia untuk diedarkan.",
+"home_plugins": "Karena BBSCoin dirancang untuk bertukar kredit virtual, plugin tersedia untuk perangkat lunak berikut:",
+"home_plugins_download": "* Plugin dapat diperoleh dari tab [ UNDUH ] kami."
 }

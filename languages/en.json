@@ -26,11 +26,11 @@
 "subtitle_home": " - a cryptocurrency for exchanging virtual credits from forums and websites",
 "subtitle_ecosystem": " - Ecosystem",
 "subtitle_download": " - Download",
-"home_desc": "<strong>A cryptocurrency for exchanging virtual credits from forums and websites</strong>",
-"home_desc_below": "Opening the door for your credits, karma, points, reputation to the world",
-"home_more_btn": "Find Out More",
-"home_about_title": "We Create Safe Cryptocurrency<br />Drive Your Site Successfully",
-"home_about_desc": "BBSCoin is a cryptocurrency designed for exchanging virtual credits. Whether it is the virtual money gained in the forums, points you collected on websites or karmas given by your coworkers. BBS coin provides a bridge for it to the greater the world.",
+"home_desc": "<strong>Cryptocurrency created for exchanging points from bulletin board systems</strong>",
+"home_desc_below": "Opening the door to user's loyalty on forums and websites.",
+"home_more_btn": "Learn More",
+"home_about_title": "BBSCoin uses CryptoNote technologies to keep transactions and balances secure, helping drive your website successfully.",
+"home_about_desc": "Whether it is the virtual money gained in the forums, points you collected on websites or karmas given by your coworkers. BBSCoin provides a bridge for it to the greater the world.",
 "ring_signatures": "Ring Signatures",
 "ring_signatures_desc": "We leverage Ring Signatures to give you true privacy so you can integrate whatever your need is.",
 "platform": "Platform",
@@ -179,6 +179,8 @@
 "listing_votes":"Voting for listings are running right now on: <a href='https://www.southxchange.com/Home/Vote#new-coins' target='_blank'>SouthXchange</a> and <a href='https://bololex.com/voting/' target='_blank'>Bololex</a> exchanges.",
 "pinterest":"Pinterest",
 "bbscoin_pinterest":"BBSCoin Pinterest",
-"home_about_bbst": "BBS Coin is now also on the <img src='/img/tron-logo-w-words-min.png' width='60' height='60' class='rounded-circle bg-white' title='Tron Network (TRX)'> Tron network  as BBS Token (BBST), which would be a opening bridge between BBS Coin and the Tron network and tokens available in their system. Please note that this is a new platform service of BBS Coin and not to be confused with a full swap.",
-"home_about_bbst_more": "Token issuance has started on October 15, 2020 which current Tron network users may acquire 10,000 BBST for 1 TRX. An amount of 120 Billion has beed frozen until January 16, 2021 to cover swap from BBSCoin to BBS Token and viceversa."
+"home_about_bbst": "BBSCoin is on the Tron network as BBSToken (BBST), which is a opening bridge between BBSCoin and the Tron network and it's token ecosystem. Note: BBSToken is a platform service of BBSCoin, it is NOT a swap.",
+"home_about_bbst_more": "Token was issued on October 15, 2020. An amount of 120 Billion BBST was kept frozen, and currently the amount of 64.470 Billion BBST is available for circulation.",
+"home_plugins": "As BBSCoin is designed for exchanging virtual credits, plugins are available for the following software:",
+"home_plugins_download": "* Plugins may be acquired from our [ DOWNLOAD ] tab."
 }

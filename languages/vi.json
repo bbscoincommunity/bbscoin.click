@@ -26,11 +26,11 @@
 "subtitle_home": " - một loại tiền điện tử để trao đổi tín dụng ảo từ các diễn đàn và trang web",
 "subtitle_ecosystem": " - Hệ sinh thái",
 "subtitle_download": " - Tải xuống",
-"home_desc": "<strong>Một loại tiền điện tử để trao đổi tín dụng ảo từ các diễn đàn và trang web</strong>",
-"home_desc_below": "Mở cánh cửa cho tín dụng, nghiệp lực, điểm, danh tiếng của bạn với thế giới",
+"home_desc": "<strong>Tiền điện tử được tạo để đổi điểm từ hệ thống bảng thông báo</strong>",
+"home_desc_below": "Mở cửa cho lòng trung thành của người dùng trên các diễn đàn và trang web",
 "home_more_btn": "Tìm hiểu thêm",
-"home_about_title": "Chúng tôi tạo tiền điện tử an toàn<br />Hướng dẫn trang web của bạn thành công",
-"home_about_desc": "BBSCoin là một loại tiền điện tử được thiết kế để trao đổi tín dụng ảo. Cho dù đó là tiền ảo thu được trong các diễn đàn, điểm bạn thu thập được trên các trang web hoặc nghiệp do đồng nghiệp của bạn đưa ra. BBS coin cung cấp một cầu nối cho nó đến thế giới rộng lớn hơn.",
+"home_about_title": "BBSCoin sử dụng công nghệ CryptoNote để giữ an toàn cho các giao dịch và số dư, giúp thúc đẩy trang web của bạn thành công.",
+"home_about_desc": "Cho dù đó là tiền ảo kiếm được trên các diễn đàn, điểm bạn thu thập được trên các trang web hoặc nghiệp do đồng nghiệp của bạn đưa ra. BBSCoin cung cấp một cầu nối cho nó với thế giới rộng lớn hơn.",
 "ring_signatures": "Chữ ký nhẫn",
 "ring_signatures_desc": "Chúng tôi tận dụng Chữ ký nhẫn để cung cấp cho bạn quyền riêng tư thực sự để bạn có thể tích hợp bất cứ nhu cầu nào của bạn.",
 "platform": "Nền tảng",
@@ -179,6 +179,8 @@
 "listing_votes": "Việc bỏ phiếu cho danh sách đang chạy ngay bây giờ: <a href='https://www.southxchange.com/Home/Vote#new-coins' target='etric'> SouthXchange </a> và <a href='https://bololex.com/vote/' target = '_ blank'> Bololex </a> trao đổi.",
 "pinterest":"Pinterest",
 "bbscoin_pinterest":"BBSCoin Pinterest",
-"home_about_bbst": "BBS Coin hiện cũng có trên <img src='/img/tron-logo-w-words-min.png' width='60' height='60' class='round-circle bg-white' title=' Tron Network (TRX) '> Mạng Tron dưới dạng BBS Token (BBST), sẽ là cầu nối mở giữa BBS Coin và mạng Tron và các mã thông báo có sẵn trong hệ thống của họ. Xin lưu ý rằng đây là một dịch vụ nền tảng mới của BBS Coin và đừng nhầm lẫn với một giao dịch hoán đổi hoàn toàn. ",
-"home_about_bbst_more": "Việc phát hành mã thông báo đã bắt đầu vào ngày 15 tháng 10 năm 2020, người dùng mạng Tron hiện tại có thể nhận được 10.000 BBST cho 1 TRX. Số lượng 120 Tỷ đã được đóng băng cho đến ngày 16 tháng 1 năm 2021 để bao gồm việc hoán đổi từ BBSCoin sang BBS Token và viceversa . "
+"home_about_bbst": "BBSCoin nằm trên mạng Tron với tên gọi BBSToken (BBST), là cầu nối mở giữa BBSCoin và mạng Tron và hệ sinh thái mã thông báo của nó. Lưu ý: BBSToken là một dịch vụ nền tảng của BBSCoin, nó KHÔNG phải là một sự hoán đổi.",
+"home_about_bbst_more": "Mã thông báo được phát hành vào ngày 15 tháng 10 năm 2020. Một lượng 120 tỷ BBST đã được giữ ở trạng thái đóng băng và hiện tại số lượng 64,470 tỷ BBST có sẵn để lưu hành.",
+"home_plugins": "Vì BBSCoin được thiết kế để trao đổi các khoản tín dụng ảo, các plugin có sẵn cho phần mềm sau:",
+"home_plugins_download": "* Các plugin có thể được lấy từ tab [TẢI XUỐNG] của chúng tôi."
 }

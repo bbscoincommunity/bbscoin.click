@@ -26,11 +26,11 @@
 "subtitle_home": " - 掲示板とサイト向け仮想通貨",
 "subtitle_ecosystem": " - エコシステム",
 "subtitle_download": " - ダウンロード",
-"home_desc": "<strong>BBSCoin<br />掲示板とサイト向け仮想通貨</strong>",
-"home_desc_below": "BBSCoin経由で,掲示板とサイトポイントを交換する",
+"home_desc": "<strong>掲示板システムからポイントを交換するために作成された暗号通貨</strong>",
+"home_desc_below": "フォーラムやウェブサイトでユーザーの忠誠心への扉を開く。",
 "home_more_btn": "もっと見る",
-"home_about_title": "私達の仮想通貨が<br />あなたのサイトを成功させる",
-"home_about_desc": "BBSコインはインターネットのフォーラムとサイトで使える仮想通貨です。各種フォーラムとサイトの間でポイントや点数などの伝送ができる方法を提供したいです。",
+"home_about_title": "BBSCoinは、CryptoNoteテクノロジーを使用して、トランザクションと残高を安全に保ち、Webサイトを正常に駆動するのに役立ちます。",
+"home_about_desc": "それがフォーラムで獲得した仮想通貨であろうと、ウェブサイトで集めたポイントであろうと、同僚から与えられたカルマであろうと。 BBSCoinは、より大きな世界への架け橋を提供します。",
 "ring_signatures": "リング署名",
 "ring_signatures_desc": "私たちはリング署名を活用して,真のプライバシーを提供し,どこでも統合することができます。",
 "platform": "プラットフォーム",
@@ -178,6 +178,8 @@
 "listing_votes": "リスティングへの投票は現在実行中です：<a href='https://www.southxchange.com/Home/Vote#new-coins' target='_blank'> SouthXchange </a>および<a href='https://bololex.com/voting/' target = '_ blank'> Bololex </a>エクスチェンジ。」",
 "pinterest": "Pinterest",
 "bbscoin_pinterest": "BBSCoin Pinterest",
-"home_about_bbst": "BBSコインは<img src='/img/tron-logo-w-words-min.png' width='60' height='60' class='rounded-circle bg-white' title='Tron Network（TRX）'> BBSトークン（BBST）としてのTronネットワーク。これは、BBSコインとTronネットワーク、およびシステムで使用可能なトークンの間の開始ブリッジになります。これは新しいプラットフォームサービスであることに注意してください。 BBSコインのフルスワップと混同しないでください。」",
-"home_about_bbst_more": "トークンの発行は2020年10月15日に開始され、現在のTronネットワークユーザーは1TRXで10,000BBSTを取得できます。BBSCoinからBBSトークンへのスワップ、およびその逆をカバーするために、2021年1月16日まで1,200億ドルが凍結されました。 。"
+"home_about_bbst": "BBSCoinは、BBSToken（BBST）としてTronネットワーク上にあります。これは、BBSCoinとTronネットワークおよびそのトークンエコシステムの間の最初のブリッジです。 注：BBSTokenはBBSCoinのプラットフォームサービスであり、スワップではありません。",
+"home_about_bbst_more": "トークンは2020年10月15日に発行されました。1200億BBSTの量が凍結されたままであり、現在644.7億BBSTの量が流通可能です。",
+"home_plugins": "BBSCoinは仮想クレジットを交換するように設計されているため、次のソフトウェアのプラグインを利用できます。",
+"home_plugins_download": "*プラグインは[ダウンロード]タブから取得できます。"
 }

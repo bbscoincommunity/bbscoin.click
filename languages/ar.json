@@ -26,11 +26,11 @@
 "subtitle_home": " لتبادل الاعتمادات الافتراضية من المنتديات والمواقع - cryptocurrency",
 "subtitle_ecosystem": " - النظام البيئي",
 "subtitle_download": " - تحميل",
-"home_desc": "<strong>BBSCoin<br />عملة مشفرة لتبادل الاعتمادات الافتراضية من المنتديات والمواقع</strong>",
-"home_desc_below": "فتح الباب لائتماناتك ، الكارما ، النقاط والسمعة للعالم كله",
+"home_desc": "<strong>تم إنشاء عملة معماة لتبادل النقاط من أنظمة لوحة الإعلانات</strong>",
+"home_desc_below": "فتح باب ولاء المستخدم في المنتديات والمواقع الإلكترونية.",
 "home_more_btn": "اكتشف المزيد",
-"home_about_title": "آمنة Cryptocurrency نحن نخلق<br />محرك موقعك بنجاح",
-"home_about_desc": "عبارة عن شفرة خفية تم تصميمها لتبادل الأرصدة الافتراضية. BBSCoin  سواء أكانت الأموال الافتراضية المكتسبة في المنتديات ، فقد قمت بجمعها على المواقع الإلكترونية أو زملائك في العمل Slack / HipChat. في  جسرًا للعالم الأكبر. BBS يوفر",
+"home_about_title": "يستخدم BBSCoin تقنيات CryptoNote للحفاظ على المعاملات والأرصدة آمنة ، مما يساعد على دفع موقع الويب الخاص بك بنجاح.",
+"home_about_desc": "سواء كانت الأموال الافتراضية المكتسبة في المنتديات ، أو النقاط التي جمعتها على مواقع الويب أو الكارما التي قدمها زملائك في العمل. يوفر BBSCoin جسرا للعالم الأكبر.",
 "ring_signatures": "خاتم التوقيعات",
 "ring_signatures_desc": "لإعطائك الخصوصية الحقيقية حتى تتمكن من دمج كل ما تحتاجه. Ring Signatures نحن نستخدم",
 "platform": "منصة",
@@ -178,6 +178,8 @@
 "listing_votes": "التصويت لبطاقات البيانات قيد التشغيل الآن على: <a href='https://www.southxchange.com/Home/Vote#new-coins' target='_blank'> SouthXchange </a> و <a href='https://bololex.com/voting/' target = '_ blank'> Bololex </a> التبادل. ",
 "pinterest":"Pinterest",
 "bbscoin_pinterest":"BBSCoin Pinterest",
-"home_about_bbst": "عملة BBS أصبحت الآن أيضًا على <img src = '/img/tron-logo-w-words-min.png' width='60' height='60' class='rounded-circle bg-white' title='Tron Network (TRX)'> شبكة Tron كـ BBS Token (BBST) ، والتي ستكون جسرًا مفتوحًا بين BBS Coin وشبكة Tron والرموز المميزة المتاحة في نظامهم. يرجى ملاحظة أن هذه خدمة منصة جديدة من عملة BBS وعدم الخلط بينها وبين المقايضة الكاملة. ",
-"home_about_bbst_more": "بدأ إصدار الرمز المميز في 15 أكتوبر 2020 والذي قد يحصل مستخدمو شبكة Tron الحاليون على 10000 BBST مقابل 1 TRX. تم تجميد مبلغ 120 مليار حتى 16 يناير 2021 لتغطية المبادلة من BBSCoin إلى BBS Token والعكس بالعكس . "
+"home_about_bbst": "BBSCoin موجود على شبكة Tron مثل BBSToken (BBST) ، وهو جسر مفتوح بين BBSCoin وشبكة Tron والنظام البيئي المميز الخاص به. ملاحظة: BBSToken هي خدمة منصة من BBSCoin ، وليست مقايضة.",
+"home_about_bbst_more": "تم إصدار الرمز المميز في 15 أكتوبر 2020. تم تجميد مبلغ 120 مليار BBST ، وحالياً يتوفر مبلغ 64.470 مليار BBST للتداول.",
+"home_plugins": "نظرًا لأن BBSCoin مصمم لتبادل الاعتمادات الافتراضية ، فإن المكونات الإضافية متاحة للبرامج التالية:",
+"home_plugins_download": "* يمكن الحصول على المكونات الإضافية من علامة التبويب [تنزيل]."
 }
