@@ -195,7 +195,7 @@
 "bbst_convert_notice": "<b>주의 사항:</b> BBSTokens와 상호 작용할 때 위에서 언급한 ID(토큰 ID: 103413 및 계약: TB3CjdHfkraU7MJLSQESYPY4U2CMKXi3LB)와 일치하는 것과 상호 작용하는지 확인하십시오. Tron 네트워크에서 다른 BBSToken을 찾으려면 Telegram 그룹에 가입하여 알려주십시오. @bbstoken(링크: <a href='https://t.me/bbstoken' target='_blank'>https://t.me/bbstoken</a>).",
 "bbst_rm_plugins_h": "포럼 웹사이트 플러그인/애드온",
 "bbst_rm_plugins_1": "플러그인 업데이트는 3개월(2021년 4월 말) 이내에 완료될 예정입니다.",
-"bbst_rm_plugins_2": "BBSToken deve ser integrado aos plug-ins junto com a documentação da API. Novos addons serão criados para cobrir outras plataformas populares usadas para fóruns e sites.",
+"bbst_rm_plugins_2": "BBSToken은 API 문서와 함께 플러그인에 통합되어야 합니다. 포럼 및 웹 사이트에 사용되는 다른 인기 있는 플랫폼을 포괄하는 새로운 애드온이 만들어집니다.",
 "bbst_rm_plugins_3": "플러그인/애드온: 현재 버전은 개발할 BBST 지갑 컨테이너인 <a href='https://bbscoin.click/ecosystem/#API' target='_blank'>BBSCoin</a> 전용입니다.",
 "bbst_rm_walletd_h": "BBSToken 지갑 컨테이너",
 "bbst_rm_walletd_1": "BBSToken을 포함하도록 플러그인/애드온 업데이트를 완료하려면 BBSToken용 지갑 컨테이너를 개발해야 하며 BBSCoin 지갑 컨테이너(walletd)와 동일한 명령을 사용하도록 설계됩니다. 이 방법으로 플러그인은 명령을 재사용하고 새 명령을 생성하고 컨텐츠 바이트를 저장하고 기능도 재사용합니다. 일부 웹마스터가 원하는 경우를 대비하여 BBSCoin과 BBSToken을 모두 실행하기 위한 모드를 추가해야 합니다.",
